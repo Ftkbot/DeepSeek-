@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>國際新聞詞彙學習：DeepSeek 爭議</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #4a4a4a;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff5e6;
+    }
+    h1, h2, h3 {
+      text-align: center;
+    }
+    h1 {
+      color: #d35400;
+      font-size: 32px;
+      border-bottom: 2px solid #e67e22;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 24px;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 40px;
+    }
+    h3 {
+      color: #2c3e50;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    h2.words {
+      background-color: #e74c3c;
+      color: white;
+    }
+    .news-content {
+      background-color: #ffefd5;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .highlight-word {
+      background-color: #ffd79a;
+      padding: 2px 4px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+      color: inherit;
+    }
+    .highlight-word:hover {
+      background-color: #ffb74d;
+    }
+    .word-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .word-card {
+      background-color: #fff9e6;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      scroll-margin-top: 20px;
+    }
+    .word-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .word-card h4 {
+      margin-top: 0;
+      color: #c0392b;
+      border-bottom: 2px solid #c0392b;
+      padding-bottom: 5px;
+    }
+    .definition, .example, .translation {
+      margin-bottom: 10px;
+    }
+    .example {
+      font-style: italic;
+      color: #7f8c8d;
+    }
+    .translation {
+      color: #c0392b;
+    }
+    .translation-content {
+      background-color: #ffefd5;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    #chineseh2 {
+      background-color: rgb(255, 157, 0);
+      color: #fff5e6;
+    }
+    .source-info {
+      background-color: #f0f0f0;
+      border-left: 5px solid #bb20a1;
+      padding: 15px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-style: italic;
+      color: #34495e;
+    }
+    .source-info p {
+      margin: 5px 0;
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #e67e22;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: none;
+      text-decoration: none;
+    }
+    .back-to-top:hover {
+      background-color: #d35400;
+    }
+    .highlighted {
+      animation: highlight 2s ease-out;
+    }
+    @keyframes highlight {
+      0% { background-color: #ffeb3b; }
+      100% { background-color: transparent; }
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #4a4a4a;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff5e6;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <h1>國際新聞詞彙學習：DeepSeek 爭議</h1>
+  
+  <h3>DeepSeek: A Controversial AI Giant in a Global Spotlight</h3>
+  
+  <div class="news-content">
+    <h2>國際新聞</h2>
+    <p>
+      DeepSeek has <a href="#word-emerged" class="highlight-word">emerged</a> as a major player in artificial intelligence, but its <a href="#word-rapid" class="highlight-word">rapid</a> rise has been <a href="#word-accompanied" class="highlight-word">accompanied</a> by significant controversies and international challenges. <a href="#word-chief" class="highlight-word">Chief</a> among these are concerns about data privacy and security, with <a href="#word-allegations" class="highlight-word">allegations</a> that DeepSeek collects sensitive user data without <a href="#word-consent" class="highlight-word">consent</a> and <a href="#word-transmits" class="highlight-word">transmits</a> it to Chinese authorities. These claims have <a href="#word-prompted" class="highlight-word">prompted</a> U.S. lawmakers to consider restricting the app's use on government devices due to national security risks.
+    </p>
+    <p>
+      <a href="#word-intellectual-property-disputes" class="highlight-word">Intellectual property disputes</a> have further <a href="#word-intensified" class="highlight-word">intensified</a> scrutiny. OpenAI has <a href="#word-accused" class="highlight-word">accused</a> DeepSeek of unlawfully using its AI technology, raising <a href="#word-ethical" class="highlight-word">ethical</a> questions about the <a href="#word-legitimacy" class="highlight-word">legitimacy</a> of data collection and model training practices. These issues <a href="#word-underscore" class="highlight-word">underscore</a> broader debates about corporate ethics in the AI industry and whether technological progress is being <a href="#word-pursued" class="highlight-word">pursued</a> at the <a href="#word-expense" class="highlight-word">expense</a> of established <a href="#word-norms" class="highlight-word">norms</a>.
+    </p>
+    <p>
+      The app's rapid expansion has also shaken the stock market, impacting companies like Nvidia, whose market <a href="#word-capitalization" class="highlight-word">capitalization</a> has experienced <a href="#word-volatility" class="highlight-word">volatility</a>. This reflects heightened <a href="#word-competition" class="highlight-word">competition</a> in the AI sector, with <a href="#word-implications" class="highlight-word">implications</a> for an emerging AI arms race between the United States and China as both nations <a href="#word-vie" class="highlight-word">vie</a> for technological <a href="#word-supremacy" class="highlight-word">supremacy</a>.
+    </p>
+    <p>
+      Globally, <a href="#word-regulatory" class="highlight-word">regulatory</a> actions have <a href="#word-escalated" class="highlight-word">escalated</a>. Countries such as Italy have banned DeepSeek, <a href="#word-citing" class="highlight-word">citing</a> privacy <a href="#word-violations" class="highlight-word">violations</a> and ethical shortcomings. This highlights the growing need for responsible governance of emerging technologies, balancing innovation with regulatory <a href="#word-compliance" class="highlight-word">compliance</a>.
+    </p>
+    <p>
+      Overall, DeepSeek's <a href="#word-controversies" class="highlight-word">controversies</a> <a href="#word-illustrate" class="highlight-word">illustrate</a> the complex <a href="#word-interplay" class="highlight-word">interplay</a> between geopolitics, ethics, and market forces in the rapidly evolving landscape of artificial intelligence. The company's challenges <a href="#word-serve" class="highlight-word">serve</a> as a reminder of the <a href="#word-delicate" class="highlight-word">delicate</a> balance required to <a href="#word-navigate" class="highlight-word">navigate</a> technological innovation responsibly on a global scale.
+    </p>
+  </div>
+  
+
+  <div class="source-info">
+    <h3>文章資訊</h3>
+    <p><strong>來源：</strong>國際新聞綜合</p>
+    <p><strong>作者：</strong>林知宸</p>
+    <p><strong>製作日期：</strong>2025/02/09</p>
+  </div>
+
+  <h2 class="words">單字解析</h2>
+  <div class="word-grid">
+    <div id="word-emerged" class="word-card">
+        <h4>Emerged</h4>
+        <p class="definition">中文釋義：出現，浮現</p>
+        <p class="example">After years of research, a new leader has emerged in the field of renewable energy.</p>
+        <p class="translation">經過多年的研究，一位新的領導者在可再生能源領域浮現出來。</p>
+      </div>
+      
+      <div id="word-rapid" class="word-card">
+        <h4>Rapid</h4>
+        <p class="definition">中文釋義：快速的</p>
+        <p class="example">The rapid growth of urban areas has led to significant environmental challenges.</p>
+        <p class="translation">城市地區的快速增長導致了顯著的環境挑戰。</p>
+      </div>
+      
+      <div id="word-accompanied" class="word-card">
+        <h4>Accompanied</h4>
+        <p class="definition">中文釋義：伴隨著</p>
+        <p class="example">The singer's performance was accompanied by a live orchestra.</p>
+        <p class="translation">這位歌手的表演伴隨著現場管弦樂團的演奏。</p>
+      </div>
+      
+      <div id="word-chief" class="word-card">
+        <h4>Chief</h4>
+        <p class="definition">中文釋義：主要的</p>
+        <p class="example">The chief concern of the project is meeting the deadline.</p>
+        <p class="translation">該項目的主要關注點是按時完成。</p>
+      </div>
+      
+      <div id="word-allegations" class="word-card">
+        <h4>Allegations</h4>
+        <p class="definition">中文釋義：指控</p>
+        <p class="example">The company denied the allegations of financial misconduct.</p>
+        <p class="translation">該公司否認了有關財務不當行為的指控。</p>
+      </div>
+      
+      <div id="word-consent" class="word-card">
+        <h4>Consent</h4>
+        <p class="definition">中文釋義：同意</p>
+        <p class="example">The patient signed the form to give consent for the surgery.</p>
+        <p class="translation">病人簽署了表格，同意進行手術。</p>
+      </div>
+      
+      <div id="word-transmits" class="word-card">
+        <h4>Transmits</h4>
+        <p class="definition">中文釋義：傳送</p>
+        <p class="example">The satellite transmits data back to Earth in real-time.</p>
+        <p class="translation">衛星即時將數據傳送回地球。</p>
+      </div>
+      
+      <div id="word-prompted" class="word-card">
+        <h4>Prompted</h4>
+        <p class="definition">中文釋義：促使</p>
+        <p class="example">The unexpected results prompted scientists to conduct further experiments.</p>
+        <p class="translation">意外的結果促使科學家進行進一步的實驗。</p>
+      </div>
+      
+      <div id="word-intellectual-property-disputes" class="word-card">
+        <h4>Intellectual Property Disputes</h4>
+        <p class="definition">中文釋義：知識產權爭議</p>
+        <p class="example">The court is currently handling several intellectual property disputes between major tech companies.</p>
+        <p class="translation">法院目前正在處理幾起大型科技公司之間的知識產權爭議。</p>
+      </div>
+      
+      <div id="word-intensified" class="word-card">
+        <h4>Intensified</h4>
+        <p class="definition">中文釋義：加劇</p>
+        <p class="example">The competition between the two firms has intensified over the past year.</p>
+        <p class="translation">過去一年中，兩家公司之間的競爭加劇了。</p>
+      </div>
+      
+      <div id="word-accused" class="word-card">
+        <h4>Accused</h4>
+        <p class="definition">中文釋義：指控</p>
+        <p class="example">The journalist was accused of spreading false information.</p>
+        <p class="translation">這名記者被指控散佈虛假信息。</p>
+      </div>
+      
+      <div id="word-ethical" class="word-card">
+        <h4>Ethical</h4>
+        <p class="definition">中文釋義：倫理的</p>
+        <p class="example">The company faced ethical questions about its labor practices.</p>
+        <p class="translation">該公司因其勞工實踐面臨倫理問題。</p>
+      </div>
+      
+      <div id="word-legitimacy" class="word-card">
+        <h4>Legitimacy</h4>
+        <p class="definition">中文釋義：合法性</p>
+        <p class="example">The legitimacy of the election was questioned by international observers.</p>
+        <p class="translation">國際觀察員對選舉的合法性提出了質疑。</p>
+      </div>
+      
+      <div id="word-underscore" class="word-card">
+        <h4>Underscore</h4>
+        <p class="definition">中文釋義：強調</p>
+        <p class="example">The recent events underscore the importance of cybersecurity.</p>
+        <p class="translation">最近的事件強調了網絡安全的重要性。</p>
+      </div>
+      
+      <div id="word-pursued" class="word-card">
+        <h4>Pursued</h4>
+        <p class="definition">中文釋義：追求</p>
+        <p class="example">She pursued her dream of becoming a professional dancer despite many challenges.</p>
+        <p class="translation">儘管面臨許多挑戰，她仍然追求成為職業舞者的夢想。</p>
+      </div>
+      
+      <div id="word-expense" class="word-card">
+        <h4>Expense</h4>
+        <p class="definition">中文釋義：代價</p>
+        <p class="example">The project was completed at the expense of the team's personal time.</p>
+        <p class="translation">該項目是以團隊的個人時間為代價完成的。</p>
+      </div>
+      
+      <div id="word-norms" class="word-card">
+        <h4>Norms</h4>
+        <p class="definition">中文釋義：規範</p>
+        <p class="example">Social norms often vary significantly between different cultures.</p>
+        <p class="translation">社會規範在不同文化之間往往有顯著差異。</p>
+      </div>
+      
+      <div id="word-volatility" class="word-card">
+        <h4>Volatility</h4>
+        <p class="definition">中文釋義：波動</p>
+        <p class="example">The stock market's volatility has made investors more cautious.</p>
+        <p class="translation">股市的波動使投資者更加謹慎。</p>
+      </div>
+
+      <div id="word-competition" class="word-card">
+        <h4>Competition</h4>
+        <p class="definition">中文釋義：競爭</p>
+        <p class="example">The competition between the two companies has driven innovation in the industry.</p>
+        <p class="translation">兩家公司之間的競爭推動了行業的創新。</p>
+      </div>
+      
+      <div id="word-implications" class="word-card">
+        <h4>Implications</h4>
+        <p class="definition">中文釋義：影響，含義</p>
+        <p class="example">The new policy has significant implications for small businesses.</p>
+        <p class="translation">新政策對小型企業有重大影響。</p>
+      </div>
+      
+      <div id="word-vie" class="word-card">
+        <h4>Vie</h4>
+        <p class="definition">中文釋義：競爭，爭奪</p>
+        <p class="example">Several cities are vying to host the next international conference.</p>
+        <p class="translation">多個城市正在爭奪舉辦下一屆國際會議的機會。</p>
+      </div>
+      
+      <div id="word-supremacy" class="word-card">
+        <h4>Supremacy</h4>
+        <p class="definition">中文釋義：至高無上，優勢</p>
+        <p class="example">The two nations are competing for technological supremacy in the AI field.</p>
+        <p class="translation">這兩個國家正在爭奪人工智慧領域的技術優勢。</p>
+      </div>
+      
+      <div id="word-regulatory" class="word-card">
+        <h4>Regulatory</h4>
+        <p class="definition">中文釋義：監管的</p>
+        <p class="example">The company is facing regulatory challenges in multiple countries.</p>
+        <p class="translation">該公司在多個國家面臨監管挑戰。</p>
+      </div>
+      
+      <div id="word-escalated" class="word-card">
+        <h4>Escalated</h4>
+        <p class="definition">中文釋義：升級，加劇</p>
+        <p class="example">The conflict between the two groups has escalated over the past few weeks.</p>
+        <p class="translation">過去幾周，兩個群體之間的衝突加劇了。</p>
+      </div>
+      
+      <div id="word-citing" class="word-card">
+        <h4>Citing</h4>
+        <p class="definition">中文釋義：引用，提及</p>
+        <p class="example">The report was rejected, citing a lack of reliable data.</p>
+        <p class="translation">該報告被駁回，理由是缺乏可靠數據。</p>
+      </div>
+      
+      <div id="word-violations" class="word-card">
+        <h4>Violations</h4>
+        <p class="definition">中文釋義：違規，違反</p>
+        <p class="example">The company was fined for multiple environmental violations.</p>
+        <p class="translation">該公司因多項環境違規行為而被罰款。</p>
+      </div>
+      
+      <div id="word-navigate" class="word-card">
+        <h4>Navigate</h4>
+        <p class="definition">中文釋義：導航，應對</p>
+        <p class="example">He used a map to navigate through the unfamiliar streets of the city.</p>
+        <p class="translation">他使用地圖在陌生的城市街道中導航。</p>
+      </div>
+</div>
+    
+<h2 id="chineseh2">文章中文翻譯</h2>
+<div class="translation-content">
+  <p>
+    人工智慧的快速發展引發了重大的倫理和監管問題。各公司爭奪技術領先地位，但這種競爭也加劇了緊張局勢，並引發了關於數據隱私、知識產權以及人工智慧對就業影響的辯論。
+  </p>
+  
+  <p>
+    雖然技術的進步為社會帶來了許多好處，但它也伴隨著挑戰。數據濫用的風險增加，導致人們對隱私的擔憂日益加劇。同時，人工智慧的廣泛應用可能會取代部分工作崗位，對勞動力市場造成深遠影響。
+  </p>
+  
+  <p>
+    在這樣的背景下，監管機構面臨著艱難的任務，即如何在促進技術創新的同時保護公眾利益。許多國家已經開始制定相關法律，以應對人工智慧帶來的挑戰。然而，這些措施的有效性仍有待觀察。
+  </p>
+  
+  <p>
+    此外，倫理問題也不容忽視。人工智慧系統的決策過程往往缺乏透明度，可能導致偏見或不公平的結果。例如，在招聘或貸款審批等領域，如果算法基於不平衡的數據進行訓練，就可能加劇社會不平等。
+  </p>
+  
+  <p>
+    總體而言，人工智慧的發展是一把雙刃劍。如何平衡技術進步與社會責任，將是未來需要解決的關鍵問題。通過國際合作和多方參與，我們或許能找到一條既促進創新又保障公眾利益的道路。
+  </p>
+</div>
+
+
+<a href="#" class="back-to-top">返回頂部</a>
+
+  <script>
+    // 滾動到頂部按鈕顯示/隱藏
+    window.onscroll = function() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.querySelector('.back-to-top').style.display = 'block';
+      } else {
+        document.querySelector('.back-to-top').style.display = 'none';
+      }
+    };
+
+    // 平滑滾動效果和高亮顯示
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        
+        // 處理返回頂部的情況
+        if (targetId === '#') {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+          return;
+        }
+
+        // 獲取目標元素
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+          // 移除所有現有的高亮效果
+          document.querySelectorAll('.word-card').forEach(card => {
+            card.classList.remove('highlighted');
+          });
+
+          // 滾動到目標位置
+          targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+          });
+
+          // 添加高亮效果
+          targetElement.classList.add('highlighted');
+
+          // 2秒後移除高亮效果
+          setTimeout(() => {
+            targetElement.classList.remove('highlighted');
+          }, 2000);
+        }
+      });
+    });
+
+    // 防止頁面刷新時的錨點跳轉
+    if (window.location.hash) {
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        window.scrollTo(0, 0);
+      }, 1);
+    }
+    let currentFontSize = 16;
+    function changeFontSize(direction) {
+      if (direction === '+' && currentFontSize < 24) {
+        currentFontSize += 2;
+      } else if (direction === '-' && currentFontSize > 12) {
+        currentFontSize -= 2;
+      }
+      document.body.style.fontSize = currentFontSize + 'px';
+    }
+  </script>
+</body>
+</html>
